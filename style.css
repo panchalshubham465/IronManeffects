@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+canvas {
+	margin-top: 0px;	
+	background-image: url('background.jpg');
+	background-position: cover;
+	background-size: cover;
+	
+}
+
+#instructions {
+	position: absolute;
+	color: black;
+	font-weight: 800;
+	font-size: 50px;
+	bottom: 0;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	padding-bottom:30px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+	font-family:   'Lucida Sans', Arial, sans-serif;
+}
+
